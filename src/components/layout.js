@@ -11,11 +11,7 @@ import {StaticQuery, graphql, Link} from "gatsby"
 
 import Header from "./header"
 import "../../static/styles/main.scss"
-import logo from "../../static/images/logo.svg"
-import iconTwitter from "../../static/images/icon-twitter.svg"
-import iconLinkedin from "../../static/images/icon-linkedin.svg"
-import iconGitHub from "../../static/images/icon-github.svg"
-import iconInstagram from "../../static/images/icon-instagram.svg"
+import logo from "../../static/images/hd-logo.png"
 
 const Layout = ({children}) => (
     <StaticQuery query={graphql`
@@ -33,7 +29,7 @@ const Layout = ({children}) => (
             <footer>
                 <div className={"container"}>
                     <div className={"row"}>
-                        <div className={"col-5"}>
+                        <div className={"col-10"}>
                             <div className={"widget__item"}>
                                 <div className={"logo"}>
                                     <Link to="/" title={"HiStaff"}>
@@ -42,24 +38,24 @@ const Layout = ({children}) => (
                                 </div>
 
                                 <div className={"about"}>
-                                    <p>A software that was created with the goal of solving the problems of Human Resources in small and medium-sized businesses.</p>
+                                    <p>L'univers des Chats est un modèle de partage d'Amour de la nature et de passion pour les animaux en général  ce qui n'exclue pas,  bien sûr, l'amour des hommes. Ne dit on pas qu'un "homme qui aime les chats ne peut pas être foncièrement méchant envers les êtres humains... ". </p>
                                 </div>
                             </div>
                         </div>
 
-                        <div className={"col-2"}>
+                        {/* <div className={"col-2"}>
                             <div className={"widget__item"}>
                                 <ul className={"links"}>
-                                    <h4>HiStaff</h4>
+                                    <h4>Jaho</h4>
                                     <ul>
-                                        <li><Link to="/about" title={"About Us"}>About</Link></li>
-                                        <li><a href={"https://histaff.io/blog"}>Blog</a></li>
-                                        <li><a className={"links__special"} href={"https://feedback.histaff.io/"} target={"_blank"} title={"We look forward to receiving your great feedback"}>Feedback</a></li>
+                                        <li><Link to="/about" title={"About Us"}>à propos de nous</Link></li>
+                                        <li><a href={""}>Blog</a></li>
+                                        <li><a className={"links__special"} href={""} target={"_blank"} title={""}>Feedback</a></li> 
                                     </ul>
                                 </ul>
                             </div>
-                        </div>
-
+                        </div> */}
+{/* 
                         <div className={"col-2"}>
                             <div className={"widget__item"}>
                                 <div className={"links"}>
@@ -71,9 +67,9 @@ const Layout = ({children}) => (
                                     </ul>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
 
-                        <div className={"col-3"}>
+                        {/* <div className={"col-3"}>
                             <div className={"widget__item"}>
                                 <div className={"social"}>
                                     <a href="https://twitter.com/histaffio" target={"_blank"} title={"Twitter"}><img alt={"Twitter"} src={iconTwitter}/></a>
@@ -82,11 +78,11 @@ const Layout = ({children}) => (
                                     <a href="https://www.instagram.com/histaff.io/" target={"_blank"} title={"Instagram"}><img alt={"Instagram"} src={iconInstagram}/></a>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
 
                     <div className={"copyright"}>
-                        <p>Copyright {new Date().getFullYear()}, {` `} <a href="https://histaff.io" title={"HiStaff"}>HiStaff</a>. All rights reserved.</p>
+                        <p>Copyright {new Date().getFullYear()}, {` `} JAHO. Tous droits réservés.</p>
                     </div>
                 </div>
             </footer>
