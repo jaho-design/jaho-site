@@ -13,7 +13,7 @@ import cathJeanMarc from "../../static/images/catherine-jean-marc.png"
 
 const IndexPage = () => (
     <Layout>
-        <SEO title="Un moment de convivialité avec vos chats"/>
+        <SEO title="Créer et Agencer des espaces pour vos chats"/>
 
         <div className={"page-header home"}>
             <h1>Créer et Agencer des espaces pour vos chats</h1> 
@@ -134,4 +134,4 @@ provoqué par le saut d'un chat quelque peu hasardeux en réception ou le jeu d'
     </Layout>
 )
 
-export default IndexPage
+export default IndexPage 
