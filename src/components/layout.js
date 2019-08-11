@@ -38,7 +38,9 @@ const Layout = ({children}) => (
                                 </div>
 
                                 <div className={"about"}>
-                                    <p>L'univers des Chats est un modèle de partage d'Amour de la nature et de passion pour les animaux en général  ce qui n'exclue pas,  bien sûr, l'amour des hommes. Ne dit on pas qu'un "homme qui aime les chats ne peut pas être foncièrement méchant envers les êtres humains... ". </p>
+                                    <p>L'univers des Chats est un modèle de partage d'Amour de la nature et de passion pour les animaux en général  ce qui n'exclue pas,  bien sûr, l'amour des hommes. Ne dit on pas qu'un "homme qui aime les chats ne peut pas être foncièrement méchant envers les êtres humains... ". 
+Même apprivoisés depuis des siècles les chats sont extraordinairement proches de la vie sauvage et leur instinct de chasse en est la preuve.
+Leur offrir des lieux d'observation de leur proies potentielles et de partage de leur tendresse et de leur curiosité naturelle avec l'homme est une motivation fédératrice que nous souhaitons partager avec vous.</p>
                                 </div>
                             </div>
                         </div>
