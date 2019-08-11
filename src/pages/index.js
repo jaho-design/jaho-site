@@ -9,6 +9,7 @@ import tools from '../../static/images/tools.png';
 import LazyCat from "../components/lazyCat"
 import GatsbyImage from "../components/image"
 import cathJeanMarc from "../../static/images/catherine-jean-marc.png"
+import LazyCatFlower from '../components/lazyCatFlower'
 
 
 const IndexPage = () => (
@@ -16,8 +17,8 @@ const IndexPage = () => (
         <SEO title="Créer et Agencer des espaces pour les chats"/>
 
         <div className={"page-header home"}>
-            <h1>Créer et Agencer des espaces pour les chats</h1> 
-            <p>JAHO, vous accompagne pour réaliser vos projets d'aménagement d'espaces de partage<br/> pour les chats, dans le respect de la nature en s'agencent avec goût dans votre intérieur et extérieur.</p> 
+            <h1>Créer et Agencer des espaces pour nos amis les chats</h1> 
+            <p>JAHO, vous accompagne pour réaliser vos projets d'aménagement d'espaces de partage<br/> pour chat, dans le respect de la nature en se mariant avec goût dans votre intérieur, votre extérieur et vos espaces pro.</p> 
             <div className={"container"}>
                     <GatsbyImage />
             </div>
@@ -37,10 +38,7 @@ const IndexPage = () => (
                             <div className={"feature__content"}>
                                 <h2>Qui sommes nous ?</h2>
                                 <p>Notre Amour pour les chats s'est concrétisé il y a quelques années avec l'adoption de Horus puis de Jadys deux magnifiques Maincoon dont l'activité principale est le "farniente".. Puisqu'ils ne sortent pas de nos maisons autrement  que dans la sécurité d'un lieu bien clos sur la terrasse, nous avons conçu et équipé des zones de vie extérieures qui leur permettent d'observer le jardin et tous les alentours tout en restant proches de nous et éloignés de tous les risques de la vie en liberté totale.
-Les jours de pluie et surtout lorsqu'ils le souhaitent en dehors de leurs séjours en extérieur, des aménagements intérieurs proches des ouvertures complètent leurs envies d'observation sur des spots hauts situés et pleins d'autres jeux à partager...
-Notre expertise en décoration d'intérieur respectueuse de l'environnement nous a permis de développer un concept applicable à la mise en œuvre et la décoration de lieux de vie partagés avec les chats non seulement pour l'habitat privé mais également pour des Bars à chats (ou salon de thé avec chats) et des hôtels pour chats (chatterie ).
-Notre premier salon de thé avec chats ouvrira bientôt avec comme but principal de partager des moments de zenitude á la japonaise (inventeurs du concept). Dans ce lieu vous serez en complet échange avec la vie trépidante de tendresse de nos chats bercés par leur ronronnement et enjoués par la douceur de leur pelage si doux à caresser..... 
-Forts de cette expérience et devant les difficultés que nous avons parfois rencontrées pour faire garder Jadys et Horus, nous avons pensé et développé également un concept d'hôtel pour chats où l'équipement des chambres single ou double comportent un large espace intérieur aménagé avec goût et un accès extérieur protégé ou l'herbe à chats tient un grand rôle...</p>
+Les jours de pluie et surtout lorsqu'ils le souhaitent en dehors de leurs séjours en extérieur, des aménagements intérieurs proches des ouvertures complètent leurs envies d'observation sur des spots hauts situés et pleins d'autres jeux à partager...</p>
                             </div>
                             {/* <div className='top-section'>
                                 <div className={"discover-more"}>
@@ -48,6 +46,30 @@ Forts de cette expérience et devant les difficultés que nous avons parfois ren
                                 </div>
                             </div> */}
                         </div>
+                    </div>
+                </div>
+                <div className={"feature__item"}>
+                    <div className={"row"}>
+                        
+                        <div className={"col-6"}>
+                            <div className={"feature__content"}>
+                                <h2>Que proposons-nous ?</h2>
+                                <p>Notre expertise en décoration d'intérieur respectueuse de l'environnement nous a permis de développer 
+                                un concept applicable à la mise en œuvre et la décoration de lieux de vie partagés avec les chats non seulement 
+                                pour l'habitat privé mais également pour des Bars à chats et des hôtels 
+                                pour chats.<br/>
+                                Notre premier salon de thé avec chats ouvrira bientôt avec comme but principal de partager des moments 
+                                de zenitude á la japonaise. Dans ce lieu vous serez en complet échange avec la vie 
+                                trépidante de tendresse de nos chats bercés par leur ronronnement et enjoués par la douceur de leur pelage 
+                                si doux à caresser... Forts de cette expérience et devant les difficultés que nous avons parfois rencontrées 
+                                pour faire garder Jadys et Horus, nous avons pensé et développé également un concept d'hôtel pour chats où 
+                                l'équipement des chambres single ou double comportent un large espace intérieur aménagé avec goût et un accès 
+                                extérieur protégé ou l'herbe à chats tient un grand rôle...</p>
+                            </div>
+                        </div>
+                        <div className={"col-6 first"}>
+                            <LazyCatFlower />
+                        </div>   
                     </div>
                 </div>
 
@@ -86,7 +108,7 @@ Un projet personnel ou professionnel? Nous pouvons vous accompagner à toutes le
                                 <div className={'item__circle'}>
                                     <img className={'image__circle'} alt={"maison"} src={home}/>
                                 </div>
-                            <p>Aménagement d'intérieur</p>
+                            <p>Aménagement d'intérieur et d'extérieur</p>
                             </div>
                         </div>
                         <div className={"col-4 first"}>
@@ -101,7 +123,7 @@ Un projet personnel ou professionnel? Nous pouvons vous accompagner à toutes le
                             <div className={'item__circle'}>
                                 <img className={'image__circle'} alt={"magasin"} src={shop}/>
                             </div>
-                            <p>Homestaging</p>
+                            <p>espaces pro.</p>
                         </div>
                         </div>
                     </div>
