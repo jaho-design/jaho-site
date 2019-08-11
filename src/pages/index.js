@@ -13,10 +13,10 @@ import cathJeanMarc from "../../static/images/catherine-jean-marc.png"
 
 const IndexPage = () => (
     <Layout>
-        <SEO title="Créer et Agencer des espaces pour vos chats"/>
+        <SEO title="Créer et Agencer des espaces pour les chats"/>
 
         <div className={"page-header home"}>
-            <h1>Créer et Agencer des espaces pour vos chats</h1> 
+            <h1>Créer et Agencer des espaces pour les chats</h1> 
             <p>JAHO, vous accompagne pour réaliser vos projets d'aménagement d'espaces de partage<br/> pour les chats, dans le respect de la nature en s'agencent avec goût dans votre intérieur et extérieur.</p> 
             <div className={"container"}>
                     <GatsbyImage />
