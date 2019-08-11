@@ -36,8 +36,11 @@ const IndexPage = () => (
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
                                 <h2>Qui sommes nous ?</h2>
-                                <p>Catherine et Jean-marc, amoureux des chats et propriétaires de deux magnifiques Maincoon dont l'activité principale est le farniente et l'observation... Nous sommes aussi passionné de décoration et d'architecture. 
-                                C'est pourquoi nous avons décidé de concevoir des espaces intérieurs et exterieurs sécurisé afin de pouvoir partager des moments avec nos chats sans inquiétude.</p>
+                                <p>Notre Amour pour les chats s'est concrétisé il y a quelques années avec l'adoption de Horus puis de Jadys deux magnifiques Maincoon dont l'activité principale est le "farniente".. Puisqu'ils ne sortent pas de nos maisons autrement  que dans la sécurité d'un lieu bien clos sur la terrasse, nous avons conçu et équipé des zones de vie extérieures qui leur permettent d'observer le jardin et tous les alentours tout en restant proches de nous et éloignés de tous les risques de la vie en liberté totale.
+Les jours de pluie et surtout lorsqu'ils le souhaitent en dehors de leurs séjours en extérieur, des aménagements intérieurs proches des ouvertures complètent leurs envies d'observation sur des spots hauts situés et pleins d'autres jeux à partager...
+Notre expertise en décoration d'intérieur respectueuse de l'environnement nous a permis de développer un concept applicable à la mise en œuvre et la décoration de lieux de vie partagés avec les chats non seulement pour l'habitat privé mais également pour des Bars à chats (ou salon de thé avec chats) et des hôtels pour chats (chatterie ).
+Notre premier salon de thé avec chats ouvrira bientôt avec comme but principal de partager des moments de zenitude á la japonaise (inventeurs du concept). Dans ce lieu vous serez en complet échange avec la vie trépidante de tendresse de nos chats bercés par leur ronronnement et enjoués par la douceur de leur pelage si doux à caresser..... 
+Forts de cette expérience et devant les difficultés que nous avons parfois rencontrées pour faire garder Jadys et Horus, nous avons pensé et développé également un concept d'hôtel pour chats où l'équipement des chambres single ou double comportent un large espace intérieur aménagé avec goût et un accès extérieur protégé ou l'herbe à chats tient un grand rôle...</p>
                             </div>
                             {/* <div className='top-section'>
                                 <div className={"discover-more"}>
@@ -53,11 +56,8 @@ const IndexPage = () => (
                         <div className={"col-8"}>
                             <div className={"feature__content"}>
                                 <h2>Quels sont nos valeurs ?</h2>
-                            <p>Nous sommes convaincu que les lieux d'échange entre félin et humain peuvent apporter bien être, santé et relaxation. Les moments de partage avec nos amis les chats 
-                            sont réputés pour apporter joie et sérénité, capables de rebooster les personnes en période de fragilité émotionnelle... <br/>
-                            La vie moderne et trépidante, les charges professionnelles et familiales de plus en plus lourdes 
-trouvent souvent une issue re-dynamisante auprès des félins aux attitudes si relaxantes et souvent risibles. Là aussi le pouvoir du rire 
-provoqué par le saut d'un chat quelque peu hasardeux en réception ou le jeu d'un chaton avec une canne à plume participe à embellir la vie.</p>
+                            <p>JAHO n'a d'autre but que d'autoriser le partage de nos convictions dans le respect de la nature, de la santé animale et même de la santé humaine dans la mesure où les moments de partage avec nos amis les chats sont réputés pour apporter joie et sérénité capables de rebooster les personnes en période de fragilité émotionnelle voire dans des extrémités comme le fameux "burnout"..
+La vie moderne et trépidante, les charges professionnelles et familiales de plus en plus lourdes trouvent souvent une issue re-dynamisante auprès des félins aux attitudes si relaxantes et souvent risibles... Là aussi le pouvoir du rire provoqué par le saut d'un chat quelque peu hasardeux en réception ou le jeu d'un chaton avec une canne à plume participe à redonner goût à la vie...</p>
                             </div>
                         </div>
                         <div className={"col-4 first"}>
@@ -75,14 +75,8 @@ provoqué par le saut d'un chat quelque peu hasardeux en réception ou le jeu d'
                     <div className={"row"}>
                         <div className={"col-12"}>
                             <div className={"feature__content"}>
-                                <p>JAHO comme les deux premières lettres unifiées de <bold>JA</bold>dys et <bold>HO</bold>rus, nos chats, est la société qui nous permet 
-                                de proposer nos services au travers de conseils, de planification et de modèles de gestion qui vous 
-                                permettront vous aussi d'offrir de magnifiques cadeaux à vos propres chats ou de mettre en œuvre une 
-                                activité professionnelle accessible même aux débutants et à tout âge pour peu que la passion des 
-                                chats puisse être votre moteur.<br/>
-                                <br/>
-                                Un projet personnel ou professionnel? Nous pouvons vous accompagner à toutes les étapes y compris 
-                                dans le financement.</p>                           
+                                <p>JAHO comme les deux premières lettres unifiées de JAdys et HOrus est la société qui nous permet de proposer nos services au travers de conseils, de planification et de modèles de gestion qui vous permettront vous aussi d'offrir de magnifiques cadeaux à vos propres chats ou de mettre en œuvre une activité professionnelle accessible même aux débutants et à tout âge pour peu que la passion des chats puisse être votre moteur.
+Un projet personnel ou professionnel? Nous pouvons vous accompagner à toutes les étapes y compris dans le financement.</p>                           
                             </div>
                         </div>
                     </div>
@@ -122,7 +116,7 @@ provoqué par le saut d'un chat quelque peu hasardeux en réception ou le jeu d'
             <div className={"container"}>
                 <div className={"call-to-action__content"}>
                     <h2>Rejoignez-nous !</h2>
-                    <p>Inscrivez-vous à notre newsletter, pour être les premiers à découvrir JAHO ou contactez-nous par email : jaho.contact@gmail.com</p>
+                    <p>Un simple contact sur ce site et l'aventure peut démarrer ou contactez-nous par email : jaho.contact@gmail.com</p>
                     
                 </div>
 
