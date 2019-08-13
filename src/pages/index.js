@@ -63,7 +63,7 @@ Les jours de pluie et surtout lorsqu'ils le souhaitent en dehors de leurs séjou
                                 trépidante de tendresse de nos chats bercés par leur ronronnement et enjoués par la douceur de leur pelage 
                                 si doux à caresser... Forts de cette expérience et devant les difficultés que nous avons parfois rencontrées 
                                 pour faire garder Jadys et Horus, nous avons pensé et développé également un concept d'hôtel pour chats où 
-                                l'équipement des chambres single ou double comportent un large espace intérieur aménagé avec goût et un accès 
+                                l'équipement des chambres single ou double comporte un large espace intérieur aménagé avec goût et un accès 
                                 extérieur protégé ou l'herbe à chats tient un grand rôle...</p>
                             </div>
                         </div>

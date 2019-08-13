@@ -28,14 +28,14 @@ const Layout = ({children}) => (
             <main>{children}</main>
             <footer>
                 <div className={"container"}>
-                    <div className={"row"}>
-                        <div className={"col-10"}>
-                            <div className={"widget__item"}>
                                 <div className={"logo"}>
-                                    <Link to="/" title={"HiStaff"}>
+                                    <Link to="/" title={"jaho"}>
                                         <img alt={"Logo"} src={logo}/>
                                     </Link>
                                 </div>
+                    <div className={"row"}>
+                        <div className={"col-7"}>
+                            <div className={"widget__item"}>
 
                                 <div className={"about"}>
                                     <p>L'univers des Chats est un modèle de partage d'Amour de la nature et de passion pour les animaux en général  ce qui n'exclue pas,  bien sûr, l'amour des hommes. Ne dit on pas qu'un "homme qui aime les chats ne peut pas être foncièrement méchant envers les êtres humains... ". 
@@ -57,24 +57,24 @@ Leur offrir des lieux d'observation de leur proies potentielles et de partage de
                                 </ul>
                             </div>
                         </div> */}
-{/* 
-                        <div className={"col-2"}>
+
+                        <div className={"col-5"}>
                             <div className={"widget__item"}>
                                 <div className={"links"}>
-                                    <h4>Support</h4>
+                                    <h4>Partenaires</h4>
                                     <ul>
-                                        <li><Link to="/contact" title={"Contact Us"}>Contact</Link></li>
-                                        <li><Link to="/privacy" title={"Privacy Policy"}>Privacy</Link></li>
-                                        <li><Link to="/terms" title={"Terms Of Use"}>Terms Of Use</Link></li>
+                                        <li><a href="https://www.askwood.fr/" target={"_blank"} title={"askwood"}>Askwood - Menuisière</a>                                        </li>
+                                        <li><a href="https://www.osteopathie-animale-bordeaux.fr/" target={"_blank"} title={"askwood"}>Agathe Lescout - Ostéopathe animalier</a>                                        </li>
+                                        <li><a href="http://musicalarue.com" target={"_blank"} title={"musicalarue"}>Musicalarue - Festival de musique</a>                                        </li>
                                     </ul>
                                 </div>
                             </div>
-                        </div> */}
+                        </div>
 
                         {/* <div className={"col-3"}>
                             <div className={"widget__item"}>
                                 <div className={"social"}>
-                                    <a href="https://twitter.com/histaffio" target={"_blank"} title={"Twitter"}><img alt={"Twitter"} src={iconTwitter}/></a>
+                                    <a href="http://musicalarue.com" target={"_blank"} title={"musicalarue"}>Musicalarue</a>
                                     <a href="https://www.linkedin.com/company/histaff/" target={"_blank"} title={"LinkedIn"}><img alt={"LinkedIn"} src={iconLinkedin}/></a>
                                     <a href="https://github.com/histaff" target={"_blank"} title={"GitHub"}><img alt={"GitHub"} src={iconGitHub}/></a>
                                     <a href="https://www.instagram.com/histaff.io/" target={"_blank"} title={"Instagram"}><img alt={"Instagram"} src={iconInstagram}/></a>
